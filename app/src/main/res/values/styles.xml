@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
++
+
+    <style name="AppTheme.Appbar">
+        <!--  Appbar안에 Toolbar가 곧바로 있을 때  -->
+        <item name="titleTextColor">#ffffff</item>
+        <!--  Appbar안에 Collapsing이 있고 그안에 Toolbar가 있을 때 -->
+        <item name="android:textColorPrimary">#ffffff</item>
+
+        <item name="colorControlNormal">#ffffff</item>
+    </style>
+
+</resources>
